@@ -401,26 +401,22 @@ animation-duration: 1s;
 
 /* responsiveness */
 
-@media screen and (max-width:667px){
+@media screen and (max-width:500px){
   .carousel-inner{
     padding-top: 50px;
     height: 50vh;
   }
 
-  .carousel-item{
-    height:vh;
-  }
+  
+  
   .carousel-item img{
     height: 50vh;
     
-
   }
-
-       
 
     .carousel-caption{
         text-align: left !important;
-        top: 80px!important;
+        top: 100px!important;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     }
@@ -477,14 +473,38 @@ animation-duration: 1s;
     }
     
 }
-
-
-
-@media screen and (min-width:668px) and (max-width:997px){
+@media screen and (min-width:501px)and (max-width:667px){
     .carousel-inner{
       padding-top: 50px;
       height: 70vh;
     }
+    .carousel-caption h5 {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-top: px;
+       
+    }
+  
+
+    .carousel-item img{
+      height: 70vh;
+      
+  
+    }
+
+}
+
+@media screen and (min-width:668px) and (max-width:997px){
+    .carousel-inner{
+      padding-top: 50px;
+      height: 100vh;
+    }
+    .carousel-item img{
+        height: 100vh;
+        
+    
+      }
 
     .carousel-caption h5{
         font-size: 2rem;
