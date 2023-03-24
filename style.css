@@ -416,12 +416,12 @@ animation-duration: 1s;
 
     .carousel-caption{
         text-align: left !important;
-        top: 20px!important;
+        top: 50px!important;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     }
     .carousel-caption h5{
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         font-family: 'Secular One', serif;
         font-weight: 700;
         width: 100%;
@@ -441,6 +441,10 @@ animation-duration: 1s;
         line-height: 1;
         margin-top:0!important;
         margin-left: 15px;
+    }
+
+    .hero h4{
+        font-size: 1.2rem;
     }
 
  
