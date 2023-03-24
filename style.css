@@ -404,24 +404,24 @@ animation-duration: 1s;
 @media screen and (max-width:500px){
   .carousel-inner{
     padding-top: 50px;
-    height: 50vh;
+    height: 40vh;
   }
 
   
   
   .carousel-item img{
-    height: 50vh;
+    height: 40vh;
     
   }
 
     .carousel-caption{
         text-align: left !important;
-        top: 100px!important;
+        top: 20px!important;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     }
     .carousel-caption h5{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         font-family: 'Secular One', serif;
         font-weight: 700;
         width: 100%;
@@ -429,19 +429,21 @@ animation-duration: 1s;
     }
     .carousel-caption p {
         padding: 3px 15px;
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 1;
         font-weight: 500;
         margin-bottom: 10px;
         width: 100%;
     }
     .carousel-caption a{
-        font-size: 12px;
+        font-size: 10px;
         padding: 4px 10px;
         line-height: 1;
         margin-top:0!important;
         margin-left: 15px;
     }
+
+ 
 
     #collection {
         margin-top: -200px!important;
